@@ -1,0 +1,81 @@
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: grey;
+}
+.navbar-brand {
+  padding: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#nav-list a {
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  border: 1px solid #000;
+}
+#nav-list a:hover {
+  background: #dedede;
+}
+#nav-list a span {
+  font-size: 2em;
+}
+
+.navbar-header {
+  background-color: grey;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+/* END HEADER */
+
+.container {
+  margin-top: 0;
+
+}
+#categories {
+  background-color: grey;
+  color: black;
+}
+
+h2 {
+  padding: 5px;
+}
+
+p {
+  margin: 0 10px;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {}
